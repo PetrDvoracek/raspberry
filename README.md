@@ -39,3 +39,8 @@ A chroot is an operation that changes the apparent root directory for the curren
 arch-chroot /mnt
 ```
 **could be used to set up ssh on raspberry image?**
+
+change read-only system
+```
+mount -o remount, rw /
+```
