@@ -44,3 +44,7 @@ change read-only system
 ```
 mount -o remount, rw /
 ```
+start ssh
+```
+sudo systemctl start ssh.service
+```
