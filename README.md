@@ -48,3 +48,9 @@ start ssh
 ```
 sudo systemctl start ssh.service
 ```
+solution of "error: Connection closed by <ip> port <port>"
+
+```
+rpi $ sudo rm /etc/ssh/ssh_host_*
+rpi $ sudo dpkg-reconfigure openssh-server
+```
